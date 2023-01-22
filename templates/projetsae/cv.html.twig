@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}acceuil{% endblock %}
+
+{% block body %}
+<div style="margin-bottom: 60px;">
+    <h1 style="text-align: center;">Curriculum Vitæ</h1>
+</div>
+<html>
+<head>
+    <style>
+        .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+        .card {
+        padding: 20px;
+        margin-bottom: 20px;
+        }
+        ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        li {
+        margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card text-white bg-primary mb-3" style="max-width: 70rem;">
+            <h3 class="card-title">Adel Boudjadja</h3 >
+            <p class="card-text">Etudiant a l'IUT de Roanne</p>
+            <p class="card-text">19 ans</p>
+            <p class="card-text">Vit à Roanne</p>
+            <p class="card-text">Intérêts/hobbies : Jeux Vidéos Technologies Science</p>
+        </div>
+        <div class="card text-white bg-dark mb-3" style="max-width: 70rem;">
+            <h3 class="card-title">Expérience professionnelle</h3 >
+            <ul>
+                <li>Preparateur de colis : Entreprise - Montage palette - 1 mois</li>
+                <li>Tri courrier : TCS - Affranchissement - 1 mois</li>
+            </ul>
+        </div>
+        <div class="card text-white bg-primary mb-3" style="max-width: 70rem;">
+            <h3 class="card-title">Formation</h3 >
+            <ul>
+                <li>Baccalauréat : Ampere Bourse - Option Mathématiques/NSI - 3 ans</li>
+            </ul>
+        </div>
+        <div class="card text-white bg-dark mb-3" style="max-width: 70rem;">
+            <h3 class="card-title">Compétences</h3 >
+            <ul>
+                <li>Compétence 1</li>
+                <li>Compétence 2</li>
+        </div>
+    </div>
+    Expérience professionnelle
+
+{% endblock %}

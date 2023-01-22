@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}acceuil{% endblock %}
+
+{% block body %}
+<div style="text-align: center;" >
+    <h1 style="margin-bottom: 60px;">Information Personnelle</h1>
+</div>
+<html>
+    <head>
+    <style>
+        .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+        .card {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin-bottom: 20px;
+        }
+        
+        .card p {
+        clear: both;
+        }
+        .card .info {
+        font-size: 0.9em;
+        color: #666;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container" style="margin-bottom: 60px;">
+            <div class="card border-primary mb-3" style="max-width: 65rem;">
+                <h2 class="card-title">BOUDJADJA Adel</h2>
+                <p class="info">IUT de Roanne / RT</p>
+                <p class="info">19ans</p>
+                <p class="info">Vit à Roanne</p>
+                <p class="info">Contact : 07 83 88 52 66 / adel.hocine.boudjadja@gmail.com</p>
+            </div>
+        </div>
+    </body>
+</html>
+<p style="margin-bottom: 60px;"> Bonjour, je suis enthousiaste de vous présenter mes compétences et mon expérience en tant que technicien reseau, avec une passion pour l'atteinte des objectifs et une forte capacité à travailler en équipe. Je suis convaincu que je peux apporter une valeur ajoutée à votre entreprise et contribuer à sa croissance.
+</p>
+<div style="text-align: center;" >
+    <h3 style="margin-bottom: 60px;"> Quelques mots clefs sur moi</h3>
+    <span class="badge rounded-pill bg-primary">Impliqué</span>
+    <span class="badge rounded-pill bg-secondary">Acharné</span>
+    <span class="badge rounded-pill bg-primary">Determiné</span>
+    <span class="badge rounded-pill bg-secondary">Intrigué</span>
+    <span class="badge rounded-pill bg-primary">Dicipliné</span>
+    <span class="badge rounded-pill bg-secondary">Autodidacte</span>
+    <span class="badge rounded-pill bg-primary">Perfectionniste</span>
+</div>
+<div style="text-align: center;" >
+        <a href="/cv">
+            <button type="button" class="btn btn-info" style="margin-top: 60px;">En savoir plus</button>
+        </a>
+</div>
+
+
+
+{% endblock %}
